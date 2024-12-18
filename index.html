@@ -4,19 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+        body{
+            background-color: rgb(8, 15, 75);
+            color: white;
+
+        }
+        nav{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            height: 80px;
+            background-color:rgb(77, 24, 161);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 20px;
+        }
+        .left{
+            font-size: 1.9rem;
+        }
+        .firstsec{
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        
+       .leftsec{
+     font-size: 2rem;
+     margin-top: 30px;
+           
+        }
+        .rightsec{
+
+        }
+  span{
+    color: aquamarine;
+  }
+  .img{
+    border-radius: 50%;
+    margin: 100px;
+  } 
+  .about{
+    display: flex;
+    justify-content: center;
+ 
+    font-size: 2.5rem;
+    color: aquamarine;
+  }
+ 
+
+        
+    </style>
+   
 </head>
 <body>
-    <div class="bg-sky-500 p-4  flex justify-between">
-        <h1>saloni vishwakarma</h1>
-        <h2>digital computing. SDITS</h2>
-    </div>
+ <header>
+    <nav>
+        <div class="left">Saloni Portfolio</div>
+        <div class="right">
+            <ul class="li">
+                <li>Home</li>
+                <li>About</li>
+                <li>Project</li>
+            </ul>
+        </div>
+    </nav>
+ </header>
 
-    <div>
-    <div class="grid grid-cils-2 gao-4">
-        <a class="text-2xl front-bold"></a>
-        <a href="calc.html">calc</a>
-   </div>
+
+ <main>
+
+    <section class="firstsec">
+
+        <div class="leftsec">
+            Hello, My Name is  <span class="pink">Saloni</span> <br>
+            I am b-tach Student <br>
+
+        </div>
+        <div class="rightsec">
+            <img class="img" src="port.jpg">
+        </div>
+    </section>
+ </main>
+
+<div>
+ <div class="about">
+    ABOUT ME!
+ </div>
+
+ <h2>Hi! i'am Saloni</h2>
+
+ <p> My Subject is B-TECH & My Branch is Data Science. I live in mundi. i completed my schooling C.M.RICE Gov. School Mundi and my 12<sub>th</sub> </p>
+
+
+
+
 </div>
+
+
 </body>
 </html>
