@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+  
+        <input type="text" id="i">
+        <button onclick="saloni">caculation</button>
+
+        <p id="in"></p>
+   
+
+
+
+    <script>
+
+
+
+function saloni()
+{
+    var x;
+    x= document.getElementById("i").value;
+
+
+        if(x%2==0)
+        
+       document.getElementById("in").innerHTML="even nomber";
+    document.getElementById("in").style.color="blue";
+
+    else 
+    
+    document.getElementById("in").innerHTML="odd nomber";
+
+}
+
+saloni();
+
+
+
+
+    </script>
+</body>
+</html>

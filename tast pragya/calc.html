@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+  
+    height: 100vh;
+     background-color:white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.calculater{
+    background: dimgrey;
+    padding: 20px;
+   
+}
+.calculater form input
+{
+border: 0;
+
+width: 60px;
+height: 60px;
+border-radius: 10px;
+box-shadow: 5px 5px 15px ;
+
+color: white;
+background: black;
+margin: 10px;
+font-size: 20px;
+
+
+}
+#num{
+width: 300px; 
+
+}
+
+
+
+    
+#equl{
+    width: 150px; 
+}
+.s{
+    background-color: palevioletred;
+    padding: 4px;
+    display: flex;
+}
+
+
+</style>
+
+</head>
+<body> 
+    
+    <div class="s" >
+        <h1>saloni vishwakarma task cumputer</h1>
+    </div>
+ 
+
+    <div class="container">
+      
+        <div class="calculater">
+            <form>
+
+                <div>
+                    <input type="text" name="display"  placeholder=" num" id="num">
+                 </div>
+
+                 
+<div>
+    <input type="button" value="AC" onclick="display.value='' ">
+    <input type="button" value="DE" onclick="display.value=display.value.tosring().slice(0,-1)">
+    <input type="button" value="%" onclick="display.value+='%' ">
+    <input type="button" value="/" onclick="display.value+='/' ">
+ </div>
+
+ <div>
+    <input type="button" value="1" onclick="display.value+='1' ">
+    <input type="button" value="2" onclick="display.value+='2' ">
+    <input type="button" value="3" onclick="display.value+='3' ">
+    <input type="button" value="-" onclick="display.value+='-' ">
+ </div>
+
+                 
+                 <div>
+                    <input type="button" value="4" onclick="display.value+='4' ">
+                    <input type="button" value="5" onclick="display.value+='5' ">
+                    <input type="button" value="6" onclick="display.value+='6' ">
+                    <input type="button" value="+" onclick="display.value+='+' ">
+                 </div>
+
+                 
+
+
+
+                 <div>
+                    <input type="button" value="7" onclick="display.value+='7' ">
+                    <input type="button" value="8" onclick="display.value+='8' ">
+                    <input type="button" value="9" onclick="display.value+='9' ">
+                    <input type="button" value="*" onclick="display.value+='*' ">
+                 </div>
+
+
+
+                 <div> 
+                   <input type="button" value="." onclick="display.value+='.' ">
+                    <input type="button" value="0" onclick="display.value+='0' ">
+                    
+                  <input type="button" value="=" onclick="display.value=eval(display.value)" id="equl">
+                    
+                  </div>
+
+                
+                   </form>
+              
+        </div>
+    </div>
+  
+</body>
+</html>

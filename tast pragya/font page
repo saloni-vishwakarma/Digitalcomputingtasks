@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>port foliyo</title>
+  <style>
+  body{
+    background-color:black;
+    color:white;
+  }
+    
+  
+  nav{
+    display:flex;
+    justify-content:space-around;
+  align-items:center; 
+height:80px;
+    width;100vh;
+background-color:#212121;
+   margin:10px;
+    
+ }
+  
+  nav ul{
+    display:flex;
+    justify-content:center;
+  }
+  
+    nav ul li{ 
+      list-style:none;
+      margin:20px;
+      background-color:red;
+     }
+   nav ul li:hover{
+    transition:1s;
+    transform:scale(1.8);
+    background-color:black;}
+  
+  .main{
+    margin:50px;
+   
+   }
+  .wel{
+    background-color:#003a76;
+    font-size:1.8rem;
+   
+    margin:20px;
+    padding:20px;
+    }
+  .left{
+    color:red;
+    font-size:1.5rem;
+  }
+  .left:hover{
+    transition:2s;
+    transform:scale(1.1);
+    background-color:black;
+    color:yellow;
+  }
+
+ 
+  
+  </style>
+  <header>
+    <nav>
+    <div class="left"><b><span style="color:orange">SALONI</span>•PORTFOLIYO</b></div>
+      <div class="right">
+        <ul>
+          <li><I><B>HOME</B></I></li>
+          <li><i><b>ABOUT</b></i></li>
+          <LI><i><b>PROJECT</b></i></LI>
+          <LI><i><b>CONTACT</b></i></LI>
+        </ul>
+      </div>
+      </nav>
+    <div class="main">
+      <p style="font-size:2rem">Hello!🙋🏻‍♀️</p>
+      <h3 class="wel">welcome to my port foliyo</h3>
+      <h1 style="font-size:3rem">My name is <span style="color:orange"><i>Saloni</i></span><br>Vishwakarma</h1>
+      <hr><h2 style="font-size:2rem; color:red">i'm b-tech <mark>Student</mark></h3><br>
+      <h1 style="font-size:3rem;">&</h1><br>
+      <h2 style="font-size:2rem; color:red" >my branch is <mark>Data science</mark></h2> 
+     
+      
+    </div>  
+    
+  </header>
+ 
+</head>
+<body>
+  </body>
