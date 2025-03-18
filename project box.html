@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   
+  
+  </style>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>project box</title>
+  <style type="text/css">
+  *{ padding:0;
+    margin:0;
+    font-femily:cursive;
+    box-sizing: border-box;
+  background-color:#A52A2A;
+  }
+  .main{
+    width:100%;
+    height:auto;
+   display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center; 
+    
+  }
+  
+  .box{
+    width:200px;
+    height:200px;
+    background: linear-gradient(purple,red);
+    color:white;
+    font-size:20px;
+    text-align:center;
+   line-height:200px; 
+    margin:20px;
+    border-radius:10px;
+    box-shadow :2px 2px 4px 4px ; 
+    text-shadow:5px 0px black;
+    transition:1.5s;
+    cursor:pointer;
+    
+  }
+  .box:hover{ 
+    transform:scale(1.2);
+    background:#ff0a4a;
+    color:black;
+    text-shadow:5px 0px white;
+    box-shadow:2px 3px 0px 0px black;
+}
+  .h1{
+    color: white;
+    text-shadow:3px 3px black;
+  }
+  
+  </style>
+</head>
+<body>
+  <h1 class="h1"><i> My Project section--°</i></h1>
+  <div class="main">
+    
+    <div  class="box"><a href="calc.html">CALCULATOR</a></div>
+    <div class="box"> <a href="registration.html">REGISTRATION</a></div>
+    <div class="box"> <a href="facebook.html">FACEBOOK</a></div> 
+    
+    
+  </div>
+</body>
+</html>
